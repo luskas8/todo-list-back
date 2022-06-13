@@ -1,0 +1,28 @@
+{
+  "name": "todo-list-back",
+  "version": "1.0.0",
+  "description": "A todo list backend application",
+  "main": "./src/index.ts",
+  "repository": "https://github.com/luskas8/todo-list-back.git",
+  "author": "luskas8 <lucas@cosmobots.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
+    "knex": "knex"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^28.1.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^28.1.1",
+    "pg": "^8.7.3",
+    "ts-jest": "^28.0.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/knex": "^0.16.1",
+    "knex": "^2.1.0"
+  }
+}
